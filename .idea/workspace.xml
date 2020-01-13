@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbf06b97-5c14-4362-b160-f3d1d82f4a32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/_temp/2020-01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/_temp/letters/2020-01-08_KOMS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/_temp/letters/2020-01-09_mensa_ukrytyGniew.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/_temp/letters/2020-01-10_list_PIOW.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/_temp/letters/2020-01-11_list_URSS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/_temp/letters/2020-01-12_list_MFiPR.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/_temp/recensions/joker_2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/_temp/recensions/theMorningShow_2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/_temp/temp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/2019-grudzien.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/6_Tablice.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/Deklaracja PIT36 2017.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/Deklaracja PIT36 2018.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/EEG/Oswiadczenie_o_wzieciu_udzialu_w_badaniu_-1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/EEG/Oswiadczenie_podatkowe.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/EEG/Oswiadczenie_podatkowev2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/EEG/ŚWIADOMA-ZGODA.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/EEG/klauzula-RODO-2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/INSTRUKCJA_zmienna srodowiskowa JAVA_HOME.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/Podatkowa Ksiega Przychodow i Rozchodow 2019 07.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/Podsumowanie KPiR.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/Simulacra_and_Simulation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/TransactionHistory_20190823_135739.XLSX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/UMOWA_IwR_AT_AkademiaKodu_2019-09-01.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/WoW Classic.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/Zadania TabliceSrednie.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/Zadania_Kolekcje.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/Zadanie_Sprawdzajace_Modul_1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/akademia_klasy.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/akademia_zadaniaKlasy2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/akademia_zadania_Klasy.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/calculator.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/daty.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/faktury, netia, nju/281907060023.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/faktury, netia, nju/3163876616_37_0.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/faktury, netia, nju/FBV_AT_7t_2019-05-31_FBV 1_5_2019.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/faktury, netia, nju/FBV_AT_7t_2019-06-28_FBV-1-6-2019.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/faktury, netia, nju/FV_NJU_AT_2019-01.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/faktury, netia, nju/FV_NJU_AT_2019-02.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/faktury, netia, nju/FV_NJU_AT_2019-03.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/faktury, netia, nju/FV_x-kom_AT_2017-12-07_CW-2017-12-12651_Honor.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/faktury, netia, nju/FV_x-kom_AT_2018-12-04_CW-2018-12-06712_HyperXCloud.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/faktury, netia, nju/Netia czerwiec 3163797423_37_0.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/faktury, netia, nju/netia maj 3163654953_37_0.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/firma i spearatis.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/gifdemo.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/gifs-master(2).zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2018/_0_MOJA PIASKOWNICA.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2018/_1_.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2018/_2_.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2018/_3_.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2018/_4_.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2018/_4b - do Doiniki.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2018/_4b_DO DOMINIKI_v2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2018/_5_.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2018/do matki.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2018/historia Spis Tematów.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/10 dziewiec miesiecy.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/2.0 zrozumienie.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/2019 październik.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/2019 sierpien..docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/2019 wrzesien.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/2019-listopad.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/3 pustka.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/4bs0rb3nt.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/ANXIETY.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/CZAS i PRESJA.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/LGBT+.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/POGARDA.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/PSYCHOLO.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/SOCJOPATA.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/STRACH A LĘK.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/Schizofrenia.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/WSTRĘt.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/_1.0_plan.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/_1_puki coś płonie.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/_2.0_frustracja a motywacja.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/_2.1_ relacje z kobietami.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/_3_wrażliwość_authistic mode.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/_4_COMA -POŻEGNANIE Z MISTRZAMI.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/a prawda jest taka.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/akademia i nauczanie.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/autoagresja.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/gluten i kazeina.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/historia 2019.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/kobiety.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/konstrukt _v3.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/krypto i blockchain.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/porzegnanie.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/programowanie.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/rozważania o systemie spoleczno-politycznym.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/rzucenie akademii.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/seryjni.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/składanie komputera.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/socjopatia.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/społeczno politycznie - prawicowo (Automatycznie odzyskany).docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/sprzedaż.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/stosunek do rodziny.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/układanie spraw.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/uwolnienie.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/używki.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/whoami.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/wiadomoscDominikiŁowczyckiej.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/wina.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/wrażliwość.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/wyśmianie i odrzucenie.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/zaglosuję na PIS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/historia 2019/żal jak narastjący huk.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/instrukcja_instalacja GIT.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/instrukcja_repozytorium gitlab.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/kolekcje.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/kontakty/KONTAKTY_2019_priv-GOOGLE.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/kontakty/KONTAKTY_7t_RAW.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/kontakty/KONTAKTY_7t_fin-poprawione numery i maile.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/kontakty/KONTAKTY_GOBARTO_fin-kontakty z tel-bez off-poprawione numery.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/kontakty/KONTAKTY_GOBARTO_kontakty z tel-bez off-poprawione numery.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/kontakty/KONTAKTY_duda.net.pl_RAW.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/kontakty/KONTAKTY_duda.net.pl_wszystkie spółki-bez off.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/kontakty/b2c_mailing groups.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/ksiazka-adresowa.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/lambdy.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/list do ministerstwa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/materialy akademiaKodu.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/mindcraftv2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/mvcFlow.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/naprawa gwarancyjna/asus reklamacja.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/naprawa gwarancyjna/screen issue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/naprawa gwarancyjna/x-kom_ASUS-GL502VSK_cw_2017_12_61285.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/naprawa gwarancyjna/x-kom_ASUS-GL502VSK_cw_2017_12_61285.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/naprawa gwarancyjna/x-kom_EPSON-L605_cw_2018_02_08470.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/naprawa gwarancyjna/x-kom_LOGITECH-G305_cw_2018_12_46330.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/pit/Deklaracja PIT36 2017.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/pit/Deklaracja PIT36 2018.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/progit.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/programator.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/protokoły it 2018 +/PROTOKOL KWIT_Gobarto_turek przemyslaw_2018-08-01_NP400b2b_GGJ291VC100150X.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/protokoły it 2018 +/PROTOKOL KWIT_Gobarto_zakrzewska urszula_2018-07-27_NP400b2b_HHJ291VC100098D.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/protokoły it 2018 +/PROTOKOL P2_Gobarto_Zielonka Robert_2019-04-17_p2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/protokoły it 2018 +/PROTOKOL WZOR_Gobarto_Naprawcza Andżela_2019-01-01_it.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/protokoły it 2018 +/PROTOKOL ZB_Gobarto_Gruszyński Artur_2019-03-04_it.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/protokoły it 2018 +/PROTOKOL ZB_Gobarto_Zielonka Robert_2019-04-17_it.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/protokoły it 2018 +/PROTOKOL ZB_Gobarto_Ćwil Michał_2019-03-07_it.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/sql.odp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/static.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/szukaniePracy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/temp 2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/temp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/tise/Regulamin pomocy zwrotnej_Zal nr 1_Wniosek 20190823.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/tise/Wniosek_Zal nr 1A_Oswiadczenie majatkowe20190823.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/tise/Wniosek_Zal nr 1B_RODO20190823.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/tise/Wniosek_Zal nr 1C_BIG20190829.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/tise/Wniosek_Zal nr 3_Dzialalnosc20190823.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_priv/src/documents 2019-12-27/wiedzmin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/!Osobiste, Przemyślenia, Wspomnienia/Aga S. - Dziękuję Ci.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../_priv/src/!Osobiste, Przemyślenia, Wspomnienia/Aga S. - Dziękuję Ci.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/!Osobiste, Przemyślenia, Wspomnienia/Aga S. - she.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../_priv/src/!Osobiste, Przemyślenia, Wspomnienia/Aga S. - she.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/!Osobiste, Przemyślenia, Wspomnienia/New Text Document.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../_priv/src/!Osobiste, Przemyślenia, Wspomnienia/New Text Document.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/!Osobiste, Przemyślenia, Wspomnienia/Wspomnienia z dzieciństwa.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../_priv/src/!Osobiste, Przemyślenia, Wspomnienia/Wspomnienia z dzieciństwa.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/!Osobiste, Przemyślenia, Wspomnienia/hmmm.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../_priv/src/!Osobiste, Przemyślenia, Wspomnienia/hmmm.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/!Osobiste, Przemyślenia, Wspomnienia/ts3_recording_14_04_14_14_47_7.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../../_priv/src/!Osobiste, Przemyślenia, Wspomnienia/ts3_recording_14_04_14_14_47_7.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/!Osobiste, Przemyślenia, Wspomnienia/ts3_recording_14_04_14_15_28_57.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../../_priv/src/!Osobiste, Przemyślenia, Wspomnienia/ts3_recording_14_04_14_15_28_57.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/.ssh/id_rsa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/.ssh/id_rsa.pub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/.ssh/known_hosts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/_historia/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../_priv/src/_historia/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/2019-grudzien.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/6_Tablice.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/Deklaracja PIT36 2017.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/Deklaracja PIT36 2018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/EEG/Oswiadczenie_o_wzieciu_udzialu_w_badaniu_-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/EEG/Oswiadczenie_podatkowe.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/EEG/Oswiadczenie_podatkowev2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/EEG/ŚWIADOMA-ZGODA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/EEG/klauzula-RODO-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/INSTRUKCJA_zmienna srodowiskowa JAVA_HOME.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/Podatkowa Ksiega Przychodow i Rozchodow 2019 07.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/Podsumowanie KPiR.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/Simulacra_and_Simulation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/TransactionHistory_20190823_135739.XLSX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/UMOWA_IwR_AT_AkademiaKodu_2019-09-01.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/WoW Classic.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/Zadania TabliceSrednie.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/Zadania_Kolekcje.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/Zadanie_Sprawdzajace_Modul_1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/akademia_klasy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/akademia_zadaniaKlasy2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/akademia_zadania_Klasy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/calculator.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/daty.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/faktury, netia, nju/281907060023.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/faktury, netia, nju/3163876616_37_0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/faktury, netia, nju/FBV_AT_7t_2019-05-31_FBV 1_5_2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/faktury, netia, nju/FBV_AT_7t_2019-06-28_FBV-1-6-2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/faktury, netia, nju/FV_NJU_AT_2019-01.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/faktury, netia, nju/FV_NJU_AT_2019-02.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/faktury, netia, nju/FV_NJU_AT_2019-03.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/faktury, netia, nju/FV_x-kom_AT_2017-12-07_CW-2017-12-12651_Honor.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/faktury, netia, nju/FV_x-kom_AT_2018-12-04_CW-2018-12-06712_HyperXCloud.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/faktury, netia, nju/Netia czerwiec 3163797423_37_0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/faktury, netia, nju/netia maj 3163654953_37_0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/firma i spearatis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/gifdemo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/gifs-master(2).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2018.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2018/_0_MOJA PIASKOWNICA.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2018/_1_.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2018/_2_.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2018/_3_.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2018/_4_.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2018/_4b - do Doiniki.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2018/_4b_DO DOMINIKI_v2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2018/_5_.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2018/do matki.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2018/historia Spis Tematów.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/10 dziewiec miesiecy.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/2.0 zrozumienie.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/2019 październik.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/2019 sierpien..docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/2019 wrzesien.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/2019-listopad.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/3 pustka.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/4bs0rb3nt.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/ANXIETY.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/CZAS i PRESJA.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/LGBT+.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/POGARDA.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/PSYCHOLO.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/SOCJOPATA.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/STRACH A LĘK.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/Schizofrenia.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/WSTRĘt.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/_1.0_plan.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/_1_puki coś płonie.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/_2.0_frustracja a motywacja.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/_2.1_ relacje z kobietami.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/_3_wrażliwość_authistic mode.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/_4_COMA -POŻEGNANIE Z MISTRZAMI.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/a prawda jest taka.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/akademia i nauczanie.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/autoagresja.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/gluten i kazeina.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/historia 2019.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/kobiety.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/konstrukt _v3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/krypto i blockchain.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/porzegnanie.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/programowanie.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/rozważania o systemie spoleczno-politycznym.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/rzucenie akademii.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/seryjni.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/składanie komputera.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/socjopatia.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/społeczno politycznie - prawicowo (Automatycznie odzyskany).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/sprzedaż.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/stosunek do rodziny.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/układanie spraw.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/uwolnienie.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/używki.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/whoami.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/wiadomoscDominikiŁowczyckiej.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/wina.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/wrażliwość.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/wyśmianie i odrzucenie.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/zaglosuję na PIS.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/historia 2019/żal jak narastjący huk.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/instrukcja_instalacja GIT.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/instrukcja_repozytorium gitlab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/kolekcje.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/kontakty/KONTAKTY_2019_priv-GOOGLE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/kontakty/KONTAKTY_7t_RAW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/kontakty/KONTAKTY_7t_fin-poprawione numery i maile.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/kontakty/KONTAKTY_GOBARTO_fin-kontakty z tel-bez off-poprawione numery.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/kontakty/KONTAKTY_GOBARTO_kontakty z tel-bez off-poprawione numery.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/kontakty/KONTAKTY_duda.net.pl_RAW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/kontakty/KONTAKTY_duda.net.pl_wszystkie spółki-bez off.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/kontakty/b2c_mailing groups.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/ksiazka-adresowa.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/lambdy.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/list do ministerstwa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/materialy akademiaKodu.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/mindcraftv2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/mvcFlow.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/naprawa gwarancyjna/asus reklamacja.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/naprawa gwarancyjna/screen issue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/naprawa gwarancyjna/x-kom_ASUS-GL502VSK_cw_2017_12_61285.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/naprawa gwarancyjna/x-kom_ASUS-GL502VSK_cw_2017_12_61285.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/naprawa gwarancyjna/x-kom_EPSON-L605_cw_2018_02_08470.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/naprawa gwarancyjna/x-kom_LOGITECH-G305_cw_2018_12_46330.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/pit/Deklaracja PIT36 2017.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/pit/Deklaracja PIT36 2018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/progit.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/programator.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/protokoły it 2018 +/PROTOKOL KWIT_Gobarto_turek przemyslaw_2018-08-01_NP400b2b_GGJ291VC100150X.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/protokoły it 2018 +/PROTOKOL KWIT_Gobarto_zakrzewska urszula_2018-07-27_NP400b2b_HHJ291VC100098D.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/protokoły it 2018 +/PROTOKOL P2_Gobarto_Zielonka Robert_2019-04-17_p2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/protokoły it 2018 +/PROTOKOL WZOR_Gobarto_Naprawcza Andżela_2019-01-01_it.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/protokoły it 2018 +/PROTOKOL ZB_Gobarto_Gruszyński Artur_2019-03-04_it.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/protokoły it 2018 +/PROTOKOL ZB_Gobarto_Zielonka Robert_2019-04-17_it.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/protokoły it 2018 +/PROTOKOL ZB_Gobarto_Ćwil Michał_2019-03-07_it.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/sql.odp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/static.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/szukaniePracy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/temp 2019.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/temp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/tise/Regulamin pomocy zwrotnej_Zal nr 1_Wniosek 20190823.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/tise/Wniosek_Zal nr 1A_Oswiadczenie majatkowe20190823.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/tise/Wniosek_Zal nr 1B_RODO20190823.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/tise/Wniosek_Zal nr 1C_BIG20190829.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/tise/Wniosek_Zal nr 3_Dzialalnosc20190823.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_priv/documents 2019-12-27/wiedzmin.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="_java101" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../_priv" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W2n6WesZQgKiTVShThBVO80NNv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../_priv" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive - AT\_dev\_java101\src\main\java\g_games\GameMain_1_cardGameWAR" />
+      <recent name="D:\OneDrive - AT\_dev\_java101\src\main\java\g_games\GameMain_3_gamePACMAN" />
+      <recent name="D:\OneDrive - AT\_priv\src\_temp\letters" />
+      <recent name="D:\OneDrive - AT\_priv\src\_temp" />
+      <recent name="D:\OneDrive - AT\_priv\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.QuizMain_6_PacMan (1)">
+    <configuration name="ExceptionsMain_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c_core_exceptions.ExceptionsMain_1" />
+      <module name="_java101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c_core_exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameMain_2_cardGamePOKER" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="g_games.GamesMain_2_cardGamePOKER.GameMain_2_cardGamePOKER" />
+      <module name="_java101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="g_games.GamesMain_2_cardGamePOKER.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectMain_2_cardGameWAR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="g_games.GamesMain_1_cardGameWAR.ProjectMain_2_cardGameWAR" />
+      <module name="_java101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="g_games.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuizMain_6_PacMan (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="g_games.GamesMain_4_gamePACMAN.QuizMain_6_PacMan" />
+      <module name="_java101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="g_games.GamesMain_4_gamePACMAN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuizMain_6_PacMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="y_quiz.QuizMain_6_PacMan.QuizMain_6_PacMan" />
+      <module name="_java101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="y_quiz.QuizMain_6_PacMan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuizMain_6_PacMan (1)" />
+        <item itemvalue="Application.GameMain_2_cardGamePOKER" />
+        <item itemvalue="Application.QuizMain_6_PacMan" />
+        <item itemvalue="Application.ExceptionsMain_1" />
+        <item itemvalue="Application.ProjectMain_2_cardGameWAR" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbf06b97-5c14-4362-b160-f3d1d82f4a32" name="Default Changelist" comment="" />
+      <created>1578356381675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578356381675</updated>
+      <workItem from="1578356383373" duration="4166000" />
+      <workItem from="1578393610404" duration="29531000" />
+      <workItem from="1578477788694" duration="2183000" />
+      <workItem from="1578495753829" duration="12398000" />
+      <workItem from="1578566324483" duration="17455000" />
+      <workItem from="1578653583949" duration="9181000" />
+      <workItem from="1578671806580" duration="11758000" />
+      <workItem from="1578740589512" duration="1715000" />
+      <workItem from="1578758011768" duration="7192000" />
+      <workItem from="1578833117726" duration="25758000" />
+      <workItem from="1578927383528" duration="467000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Project_Structure" timestamp="1578359757970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1578359757970" />
+    <state x="579" y="257" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578853300634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="257" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1578853300634" />
+    <state x="724" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578477860764" />
+    <state x="612" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1578914765006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="612" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578914765006" />
+    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578435040291" />
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578495861159">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1578495861159" />
+    <state x="618" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578402704099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="618" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578402704099" />
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1578359692597">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578359692597" />
+    <state width="1493" height="301" key="GridCell.Tab.0.bottom" timestamp="1578921588471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="301" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578921588471" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578446447936" />
+    <state width="1493" height="301" key="GridCell.Tab.0.center" timestamp="1578921588471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="301" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578921588471" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578446447936" />
+    <state width="1493" height="301" key="GridCell.Tab.0.left" timestamp="1578921588470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="301" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578921588470" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578446447920" />
+    <state width="1493" height="301" key="GridCell.Tab.0.right" timestamp="1578921588471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="301" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578921588471" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578446447936" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1578916470485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578916470485" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578446447936" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1578916470485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578916470485" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578446447936" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1578916470485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578916470485" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578446447936" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1578916470485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578916470485" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578446447936" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1578868189638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1578868189638" />
+    <state x="369" y="0" key="SettingsEditor" timestamp="1578912995744">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="369" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578912995744" />
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578360080453" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1578927383010">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578927383010" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578477827242" />
+    <state x="607" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578446138239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="607" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578446138239" />
+    <state x="215" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578916199812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="215" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1578916199812" />
+    <state x="342" y="216" key="new project wizard" timestamp="1578359709638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="216" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578359709638" />
+    <state x="511" y="40" key="refactoring.ChangeSignatureDialog" timestamp="1578680282661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1578680282661" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>81</line>
+          <properties class="Main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/g_games/GamesMain_2_cardGamePOKER/GameMain_2_cardGamePOKER.java</url>
+          <line>6</line>
+          <properties class="g_games.GamesMain_2_cardGamePOKER.GameMain_2_cardGamePOKER">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g_games/GamesMain_1_cardGameWAR/ProjectMain_2_cardGameWAR.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g_games/GamesMain_1_cardGameWAR/ProjectMain_2_cardGameWAR.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g_games/GamesMain_1_cardGameWAR/ProjectMain_2_cardGameWAR.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g_games/GamesMain_1_cardGameWAR/ProjectMain_2_cardGameWAR.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g_games/GamesMain_1_cardGameWAR/ProjectMain_2_cardGameWAR.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g_games/GamesMain_4_gamePACMAN/Game.java</url>
+          <line>264</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g_games/GamesMain_4_gamePACMAN/Game.java</url>
+          <line>282</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g_games/GamesMain_4_gamePACMAN/Game.java</url>
+          <line>275</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g_games/GamesMain_4_gamePACMAN/Game.java</url>
+          <line>291</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/g_games/GamesMain_4_gamePACMAN/Game.java</url>
+          <line>296</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

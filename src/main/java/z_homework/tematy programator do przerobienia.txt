@@ -1,0 +1,51 @@
+1)przeliczenia systemow w javie: 
+2 8 10 16
+2) + - * 
+3)szyfr cezara
+Aa$H4
+K-1
+Zz$J4 
+4)garbage collector
+5) operatory pojedyncze 
+6) przesuniecie bitowe 
+7) algorym euklidesa 
+
+8) stworz algorytm znajdujacy liczby super  
+9) kodowanie huffmana - odkowdowanie i zakodowanie liscie w drzewie?
+
+
+PRACE DOMOWE:
+
+NUMERAL SYSTEMS:
+25.11.2019 kalkulacja pomiędzy dowolnymi systemami (bin, oct, dec, hex) -> implementacja 5 wybranych
+
+BINARY OPERATIONS:
+27.11.2019 Dodawanie, odejmowanie, mnożenie binarne, (dzielenie dla chętnych), szyfr cezara
+
+ARRAYS1:
+-Wyświetl sumę, min, max amplitudę, średnią arytmetyczną elementów z tablicy
+-Zlicz sumę cyfr dowolnej liczby
+-Wyświetl komunikat czy w konkretnym String jest więcej małych czy dużych liter (edited) 
+
+ARRAYS2:
+02.12.2019 Napisz metode przyjmujaca 2 tablice i zwracajaca tablice elementów wspólnych
+02.12.2019 Napisz metode przyjmujaca tablice i wypisujaca z niej wszystkie liczby pierwsze
+02.12.2019 Napisz metodę przyjmującą 2 wymiarową tablice i zwracającą tablicę będącą sumą elementów w wierszu
+02.12.2019 Napisz metodę przyjmującą 2 wymiarową tablice i zwracającą tablicę będącą sumą elementów w kolumnie
+
+REKURENCJE:
+04.12.2019 Metoda rekurencyjna silnia
+04.12.2019 Metoda rekurencyjna ciąg fib
+04.12.2019 Metoda rekurencyjna sumowanie  cyfr liczby
+04.12.2019 Metoda rekurencyjna N-ty wyraz ciągu o podstawie 3
+
+STRING:
+09.12.2019 Policz ilość słów w tekście
+09.12.2019 Policz ilość liter w tekście
+09.12.2019 Wypisz wszystkie liczby z tekstu
+09.12.2019 Wypisz tekst bez przypisów ([15])
+09.12.2019 Policz ilość linijek w tekście
+09.12.2019 Czy litera 'a' została użyta więcej razy niż 'o' ? (Pomiń wielkość liter)
+09.12.2019 Czy litera 'a' została użyta więcej razy niż 'o' ? (Uwzględnij wielkość liter)
+09.12.2019 Wypisz wszystkie słowa rozpoczynające się od 'Dino' lub 'dino'
+09.12.2019 Policz znaki interpunkcyjne, wykorzystując ArrayListe zlicz wystapienia poszczegolnych znakow (np. '.' wystąpił 52 razy) (edited) 

@@ -1,0 +1,84 @@
+
+HOMEWORKS:
+
+
+TAMAGOCHI/roslinka:
+-jedna oeracja dziennie
+
+wlasciwosci:
+-stan naslonecznienia
+-stan nawodnienia
+-stan zarobaczenia
+-
+
+
+GRA W WOJNE dwoch komputerow
+2019.12.18
+
+
+
+
+OBJECTS:
+2019.12.13 przenoszenie obiektów pomiędzy klasami
+
+OPERATIONS ON FILES:
+2019.12.11 Napisz program w którym użytkownik wybiera czy chce stworzyć plik czy katalog, po czym wprowadza nazwę. Instrukcja jest wykonywana.
+
+STRING:
+2019.12.09 Policz ilość słów w tekście
+2019.12.09 Policz ilość liter w tekście
+2019.12.09 Wypisz wszystkie liczby z tekstu
+2019.12.09 Wypisz tekst bez przypisów ([15])
+2019.12.09 Policz ilość linijek w tekście
+2019.12.09 Czy litera 'a' została użyta więcej razy niż 'o' ? (Pomiń wielkość liter)
+2019.12.09 Czy litera 'a' została użyta więcej razy niż 'o' ? (Uwzględnij wielkość liter)
+2019.12.09 Wypisz wszystkie słowa rozpoczynające się od 'Dino' lub 'dino'
+2019.12.09 Policz znaki interpunkcyjne, wykorzystując ArrayListe zlicz wystapienia poszczegolnych znakow (np. '.' wystąpił 52 razy) (edited)
+
+REKURENCJE:
+2019.12.04 Metoda rekurencyjna silnia
+2019.12.04 Metoda rekurencyjna ciąg fib
+2019.12.04 Metoda rekurencyjna sumowanie  cyfr liczby
+2019.12.04 Metoda rekurencyjna N-ty wyraz ciągu o podstawie 3
+
+ARRAYS2:
+2019.12.02 Napisz metode przyjmujaca 2 tablice i zwracajaca tablice elementów wspólnych
+2019.12.02 Napisz metode przyjmujaca tablice i wypisujaca z niej wszystkie liczby pierwsze
+2019.12.02 Napisz metodę przyjmującą 2 wymiarową tablice i zwracającą tablicę będącą sumą elementów w wierszu
+2019.12.02 Napisz metodę przyjmującą 2 wymiarową tablice i zwracającą tablicę będącą sumą elementów w kolumnie
+
+
+ARRAYS1:
+2019.11.29 Wyświetl sumę, min, max amplitudę, średnią arytmetyczną elementów z tablicy
+2019.11.29 Zlicz sumę cyfr dowolnej liczby
+2019.11.29 Wyświetl komunikat czy w konkretnym String jest więcej małych czy dużych liter (edited)
+
+BINARY OPERATIONS:
+2019.11.27 Dodawanie, odejmowanie, mnożenie binarne, (dzielenie dla chętnych)
+
+NUMERAL SYSTEMS:
+2019.11.25 kalkulacja pomiędzy dowolnymi systemami (bin, oct, dec, hex) -> implementacja 5 wybranych
+
+
+EXTRA SZYFRY:
+-algorym euklidesa
+-szyfr cezara
+-stworz algorytm znajdujacy liczby super
+-kodowanie huffmana - odkowdowanie i zakodowanie liscie w drzewie?
+
+
+
+1)przeliczenia systemow w javie:
+2 8 10 16
+2) + - *
+3)szyfr cezara
+Aa$H4
+K-1
+Zz$J4
+4) garbage collector
+5) operatory pojedyncze
+6) przesuniecie bitowe
+7) algorym euklidesa
+
+8) stworz algorytm znajdujacy liczby super
+9) kodowanie huffmana - odkowdowanie i zakodowanie liscie w drzewie?
