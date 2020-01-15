@@ -1,4 +1,4 @@
-package y_quiz;
+package y_quizes;
 
 import java.io.File;
 import java.io.IOException;

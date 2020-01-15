@@ -1,0 +1,3 @@
+Human{ name=<Jan>_ listOfDogs=[Dog{   name=<kot> , name=<M> , name=<RED> ,}, Dog{   name=<fdafd> , name=<L> , name=<BLUE> ,}, Dog{   name=<piotr> , name=<L> , name=<RED> ,}]}
+Human{ name=<Maria>_ listOfDogs=[Dog{   name=<Burek> , name=<M> , name=<GREEN> ,}]}
+Human{ name=<Rokita>_ listOfDogs=[Dog{   name=<Czopek> , name=<S> , name=<BLUE> ,}]}

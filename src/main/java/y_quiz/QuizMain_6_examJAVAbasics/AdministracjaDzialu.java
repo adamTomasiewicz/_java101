@@ -1,4 +1,4 @@
-package y_quiz.QuizMain_6_examJAVAbasics;
+package y_quizes.QuizMain_6_examJAVAbasics;
 
 public interface AdministracjaDzialu  {
 
