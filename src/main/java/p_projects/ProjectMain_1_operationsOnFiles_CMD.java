@@ -53,6 +53,7 @@ public class ProjectMain_1_operationsOnFiles_CMD {
             input = scanner1.nextLine();
             //  When you call, sc.close() in first method, it not only closes your scanner but closes your System.in input stream as well.
             //  You can verify it by printing its status at very top of the second method as :
+            // Its best to use specific scanner only for 1 kind of input.
 
             if (input.length() == 1) {
                 switch (input) {

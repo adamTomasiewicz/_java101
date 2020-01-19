@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="_java101" />
+        <module name="_myFirstProject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="_changePDFnameEclipse" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
