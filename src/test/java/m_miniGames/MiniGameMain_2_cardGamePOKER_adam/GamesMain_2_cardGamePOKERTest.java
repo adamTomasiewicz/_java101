@@ -4,5 +4,7 @@ public class GamesMain_2_cardGamePOKERTest {
     //testy jednostkowe
     //testy parametryzowane
     //mockowanie testow
-    
+
+
 }
+

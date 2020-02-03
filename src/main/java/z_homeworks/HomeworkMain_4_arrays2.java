@@ -65,29 +65,31 @@ class HomeworkMain_4_arrays2 {
 
     //TODO: exe4: Napisz metodę przyjmującą 2 wymiarową tablice i zwracającą tablicę będącą sumą elementów w kolumnie
     public static void main(String[] args) {
-        int twoDimesionalArray[][] = {{1,2,3,4},
-                                      {1,2,3,4,5},
-                                      {1,2,3}};
+        int[][] twoDimesionalArray = {{1, 2, 3, 4},
+                {1, 2, 3, 4, 5},
+                {1, 2, 3}};
         sumElementsInColumn(twoDimesionalArray);
     }
-    static void sumElementsInColumn (int[][] twoDimensionalArray) {
+
+    static void sumElementsInColumn(int[][] twoDimensionalArray) {
         int numberOfColumns = 0;
-        for (int i = 0; i <twoDimensionalArray.length ; i++) {
-            if (twoDimensionalArray[i].length>numberOfColumns) numberOfColumns=twoDimensionalArray[i].length;
+        for (int i = 0; i < twoDimensionalArray.length; i++) {
+            if (twoDimensionalArray[i].length > numberOfColumns) numberOfColumns = twoDimensionalArray[i].length;
         }
         Map<Integer, Integer> sumElementsInColumn = new LinkedHashMap<>();
 
-        for (int i = 0; i <numberOfColumns ; i++) {
+        for (int i = 0; i < numberOfColumns; i++) {
             int counter = 0;
-            for (int j = 0; j < twoDimensionalArray.length ; j++) {
-                try {counter+= twoDimensionalArray[j][i];
+            for (int j = 0; j < twoDimensionalArray.length; j++) {
+                try {
+                    counter += twoDimensionalArray[j][i];
                 } catch (IndexOutOfBoundsException e) {
                     continue;
                 }
             }
-            sumElementsInColumn.put(i,counter);
+            sumElementsInColumn.put(i, counter);
         }
-        for (Map.Entry entry:sumElementsInColumn.entrySet() ) {
+        for (Map.Entry entry : sumElementsInColumn.entrySet()) {
             System.out.println(entry);
         }
     }

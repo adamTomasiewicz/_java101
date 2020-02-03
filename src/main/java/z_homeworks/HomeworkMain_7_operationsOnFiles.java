@@ -22,8 +22,8 @@ class HomeworkMain_7_operationsOnFiles {
         String dirForFileCreate = "D:\\OneDrive - AT\\_dev\\_java101\\b_cschool\\src\\t_temp\\";
         String dirForFileEmpty = "D:\\OneDrive - AT\\_dev\\_java101\\b_cschool\\src\\t_temp\\empty.txt";
 
-       // try catch (IOException e) { e.printStackTrace(); }
-       // PrintWriter printWriter1 = new PrintWriter(path2);   printWriter1.close();
+        // try catch (IOException e) { e.printStackTrace(); }
+        // PrintWriter printWriter1 = new PrintWriter(path2);   printWriter1.close();
 
         File file1;
         File file2;
@@ -46,17 +46,17 @@ class HomeworkMain_7_operationsOnFiles {
                     System.out.println("type name of the file");
                     input1 = scanner1.nextLine();
 
-                    file1=new File(dirForFileCreate+input1);
+                    file1 = new File(dirForFileCreate + input1);
                     file1.createNewFile();
-                    System.out.println("file created"+ file1.getAbsolutePath());
+                    System.out.println("file created" + file1.getAbsolutePath());
                     break;
                 case "2":
                     //creating folder
                     System.out.println("type name of directory");
                     input2 = scanner1.nextLine();
-                    file2=new File(dirForFileCreate+input2);
+                    file2 = new File(dirForFileCreate + input2);
                     file2.mkdirs();
-                    System.out.println("file created"+ file2.getAbsolutePath());
+                    System.out.println("file created" + file2.getAbsolutePath());
 
                     break;
                 case "5":
@@ -64,7 +64,7 @@ class HomeworkMain_7_operationsOnFiles {
 
                     break;
                 case "6":
-                   // walkTest(dirStart);
+                    // walkTest(dirStart);
 
                     break;
                 case "0":
@@ -97,7 +97,7 @@ class HomeworkMain_7_operationsOnFiles {
         System.out.println("waiting for your input");
     }
 
-   static void listFiles(String startDir) {
+    static void listFiles(String startDir) {
         File file1 = new File(startDir);
         File[] files = file1.listFiles();
 
@@ -105,7 +105,7 @@ class HomeworkMain_7_operationsOnFiles {
             for (File file : files) {
                 // Check if the file is a directory
                 if (file.isDirectory()) {
-                    System.out.println(file.getName() +" "+ file.getAbsolutePath());
+                    System.out.println(file.getName() + " " + file.getAbsolutePath());
                 } else {
                     System.out.println(file.getName() + " (size in bytes: " + file.length() + ")");
                 }
@@ -113,15 +113,16 @@ class HomeworkMain_7_operationsOnFiles {
         }
 
     }
-    static void walkTest (String path) throws IOException {
-        Stream<Path> walk = Files.walk(Paths.get(path) );
+
+    static void walkTest(String path) throws IOException {
+        Stream<Path> walk = Files.walk(Paths.get(path));
         List<String> result;
         //directories
-        result =walk.filter(Files::isDirectory)
+        result = walk.filter(Files::isDirectory)
                 .map(x -> x.toString()).collect(Collectors.toList());
         // regular files
         result = walk.filter(Files::isRegularFile)
-                    .map(x -> x.toString()).collect(Collectors.toList());
+                .map(x -> x.toString()).collect(Collectors.toList());
         result.forEach(System.out::println);
     }
 }

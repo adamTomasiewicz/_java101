@@ -6,11 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="_myFirstProject" />
+        <module name="_JediOrganizer_SWING" />
+        <module name="_userAuthorisation_SWING-JDBC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="_bestDrive (2)" target="11" />
       <module name="_changePDFnameEclipse" target="11" />
+      <module name="_myAuthorisation" target="11" />
+      <module name="_myFirstProject" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="_bestDrive" options="-parameters" />
+      <module name="_bestDrive (2)" options="-parameters" />
+      <module name="_myAuthorisation" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -1,0 +1,25 @@
+
+//todo: jUnit_4
+https://www.testwithspring.com/lesson/writing-parameterized-tests-with-junit-4/
+
+  <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+
+//todo: jUnit_5
+https://www.baeldung.com/parameterized-tests-junit-5
+
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-params</artifactId>
+    <version>5.4.2</version>
+    <scope>test</scope>
+</dependency>
+
+
+
+https://www.tutorialspoint.com/junit/junit_parameterized_test.htm
+https://junit.org/junit4/javadoc/4.12/org/junit/runners/Parameterized.html

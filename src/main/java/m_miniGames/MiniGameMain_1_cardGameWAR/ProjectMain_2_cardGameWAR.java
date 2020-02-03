@@ -82,7 +82,7 @@ public class ProjectMain_2_cardGameWAR {
                     }
                 }
                 for (Map.Entry entry : mapPlayerCardToCompare.entrySet()) {
-                    if ((Integer) entry.getValue() == (highestValue)) {
+                    if (entry.getValue() == (highestValue)) {
                         highestValueCounter++;
                     }
                 }
@@ -91,30 +91,30 @@ public class ProjectMain_2_cardGameWAR {
 //
 //            }
             //if 1 player have highest value
-            if (highestValueCounter == 1) {
-                for (Map.Entry entry : mapPlayerCardToCompare.entrySet()) {
-                    if ((Integer) entry.getValue() >= (highestValue)) {
-                        for (int i = 0, n = prizePool.size(); i < n; i++) {
-                            if (prizePool.get(i) != null) {
-                                Player.arrayOfPlayers[(int) entry.getKey()].queueOfCards.offerLast(prizePool.get(i));
-                            }
-                        }
-                        System.out.println(prizePool);
-                        System.out.println("prizePool goes to " + Player.arrayOfPlayers[(int) entry.getKey()].getName());
-                        prizePool.clear();
-
-                    }
-
-                }
-            }
+//            if (highestValueCounter == 1) {
+//                for (Map.Entry entry : mapPlayerCardToCompare.entrySet()) {
+//                    if (entry.getValue() >= (highestValue)) {
+//                        for (int i = 0, n = prizePool.size(); i < n; i++) {
+//                            if (prizePool.get(i) != null) {
+//                                Player.arrayOfPlayers[(int) entry.getKey()].queueOfCards.offerLast(prizePool.get(i));
+//                            }
+//                        }
+//                        System.out.println(prizePool);
+//                        System.out.println("prizePool goes to " + Player.arrayOfPlayers[(int) entry.getKey()].getName());
+//                        prizePool.clear();
+//
+//                    }
+//
+//                }
+//            }
 
             //if 2 or more players have highest values
-            else if (highestValueCounter > 1) {
+            if (highestValueCounter > 1) {
 
                 highestValue2 = 0;
                 highestValueCounter2 = 0;
                 for (Map.Entry entry : mapPlayerCardToCompare.entrySet()) {
-                    if ((Integer) entry.getValue() == (highestValue)) {
+                    if (entry.getValue() == (highestValue)) {
                         if (Player.arrayOfPlayers[(int) entry.getKey()].getQueueOfCards() != null) {
                             prizePool.add(Player.arrayOfPlayers[(int) entry.getKey()].queueOfCards.poll());
                             mapPlayerCardsToCompare2.put((Integer) entry.getKey(), Player.arrayOfPlayers[(int) entry.getKey()].queueOfCards.poll());
@@ -126,20 +126,20 @@ public class ProjectMain_2_cardGameWAR {
                         }
                     }
                 }
-                for (Map.Entry entry : mapPlayerCardToCompare.entrySet()) {
-                    if ((Integer) entry.getValue() >= (highestValue)) {
-                        for (int i = 0, n = prizePool.size(); i < n; i++) {
-                            if (prizePool.get(i) != null) {
-                                Player.arrayOfPlayers[(int) entry.getKey()].queueOfCards.offerLast(prizePool.get(i));
-                            }
-                        }
-                        System.out.println(prizePool);
-                        System.out.println("prizePool goes to " + Player.arrayOfPlayers[(int) entry.getKey()].getName());
-                        prizePool.clear();
-
-                    }
-
-                }
+//                for (Map.Entry entry : mapPlayerCardToCompare.entrySet()) {
+//                    if (entry.getValue() >= (highestValue)) {
+//                        for (int i = 0, n = prizePool.size(); i < n; i++) {
+//                            if (prizePool.get(i) != null) {
+//                                Player.arrayOfPlayers[(int) entry.getKey()].queueOfCards.offerLast(prizePool.get(i));
+//                            }
+//                        }
+//                        System.out.println(prizePool);
+//                        System.out.println("prizePool goes to " + Player.arrayOfPlayers[(int) entry.getKey()].getName());
+//                        prizePool.clear();
+//
+//                    }
+//
+//                }
 
                 System.out.println(mapPlayerCardToCompare);
                 mapPlayerCardToCompare.clear();
@@ -163,76 +163,76 @@ public class ProjectMain_2_cardGameWAR {
         }
         scanner1.close();
     }
-        //todo: 1 jak przedstawic talie kart? to powinna byc lista
-        //4 kolory, 52 karty,  6Pik, jTrefl, K-Karo , kier
-        //metody:tasowanie, rozegranie meczu
+    //todo: 1 jak przedstawic talie kart? to powinna byc lista
+    //4 kolory, 52 karty,  6Pik, jTrefl, K-Karo , kier
+    //metody:tasowanie, rozegranie meczu
 
-        ////
+    ////
 
-        // rozdane karty powinny być na listach, albo powinny być obiektami z listą w środku
+    // rozdane karty powinny być na listach, albo powinny być obiektami z listą w środku
 
-        //akcje aplikacji:
-        //na poczatku skaner przyjmuje zakres rozgrywki, ile talii? ilu graczy? moze imona graczy?
-        //tasuje 52 karty (1 lub wiecej talii)
-        //rozdaje pomiedzy graczy (2 lub wiecej - zmienna numberOfPlayers)
-        //kazdy z graczy iteracyjnie dostaje swoja liste kart i swoj numer po ktorym kolejno beda wykladac karty, gracz ktorego lista sie skonczy odpada
-        //kolory kart nie maja znaczenia tylko numerki
-        //metoda porownania jesli karta ma nizszy numerek przegrywasz, jesli ma najwyzszy, jesli sa inni ktorzy maja najwyzszy nr to wywolaj
-        //metode dogrywka
-        //fajnie byloby sumowac
-        //moze zamiast listy kart queue FILO?
+    //akcje aplikacji:
+    //na poczatku skaner przyjmuje zakres rozgrywki, ile talii? ilu graczy? moze imona graczy?
+    //tasuje 52 karty (1 lub wiecej talii)
+    //rozdaje pomiedzy graczy (2 lub wiecej - zmienna numberOfPlayers)
+    //kazdy z graczy iteracyjnie dostaje swoja liste kart i swoj numer po ktorym kolejno beda wykladac karty, gracz ktorego lista sie skonczy odpada
+    //kolory kart nie maja znaczenia tylko numerki
+    //metoda porownania jesli karta ma nizszy numerek przegrywasz, jesli ma najwyzszy, jesli sa inni ktorzy maja najwyzszy nr to wywolaj
+    //metode dogrywka
+    //fajnie byloby sumowac
+    //moze zamiast listy kart queue FILO?
 
 
-        public static String returnPlayersName () {
+    public static String returnPlayersName() {
 
-            String playersName = null;
+        String playersName = null;
 
-            Scanner scanner2 = new Scanner(System.in);
-            playersName = scanner2.nextLine();
+        Scanner scanner2 = new Scanner(System.in);
+        playersName = scanner2.nextLine();
 
-            return playersName;
-        }
+        return playersName;
+    }
+}
+
+
+class Player {
+    static Player[] arrayOfPlayers;
+    static int counter = 0;
+
+    String name;
+    ArrayDeque<Integer> queueOfCards = new ArrayDeque<>();
+
+    public Player() {
+        this.name = "testPlayer";
+        arrayOfPlayers[counter++] = this;
     }
 
-
-    class Player {
-        static Player[] arrayOfPlayers;
-        static int counter = 0;
-
-        String name;
-        ArrayDeque<Integer> queueOfCards = new ArrayDeque<>();
-
-        public Player() {
-            this.name = "testPlayer";
-            arrayOfPlayers[counter++] = this;
-        }
-
-        public Player(String name) {
-            this.name = name;
-            arrayOfPlayers[counter++] = this;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public ArrayDeque<Integer> getQueueOfCards() {
-            return !queueOfCards.isEmpty() ? queueOfCards : null;
-        }
-
-        public void setQueueOfCards(ArrayDeque<Integer> queueOfCards) {
-            this.queueOfCards = queueOfCards;
-        }
-
-        @Override
-        public String toString() {
-            return "Player{" +
-                    "name='" + name + '\'' +
-                    ", queueOfCards=" + queueOfCards +
-                    '}';
-        }
+    public Player(String name) {
+        this.name = name;
+        arrayOfPlayers[counter++] = this;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public ArrayDeque<Integer> getQueueOfCards() {
+        return !queueOfCards.isEmpty() ? queueOfCards : null;
+    }
+
+    public void setQueueOfCards(ArrayDeque<Integer> queueOfCards) {
+        this.queueOfCards = queueOfCards;
+    }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "name='" + name + '\'' +
+                ", queueOfCards=" + queueOfCards +
+                '}';
+    }
+}

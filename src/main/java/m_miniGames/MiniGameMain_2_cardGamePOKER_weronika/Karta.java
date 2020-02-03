@@ -1,6 +1,6 @@
 package m_miniGames.MiniGameMain_2_cardGamePOKER_weronika;
 
-public class Karta implements Comparable <Karta> {
+public class Karta implements Comparable<Karta> {
     Figura figura;
     Kolor kolor;
 
@@ -8,7 +8,6 @@ public class Karta implements Comparable <Karta> {
         this.figura = figura;
         this.kolor = kolor;
     }
-
 
 
     @Override
@@ -19,9 +18,9 @@ public class Karta implements Comparable <Karta> {
 
     @Override
     public int compareTo(Karta o) {
-        if (this.figura.value>o.figura.value)
+        if (this.figura.value > o.figura.value)
             return 1;
-        else if(this.figura.value<o.figura.value)
+        else if (this.figura.value < o.figura.value)
             return -1;
         return 0;
     }

@@ -16,19 +16,38 @@ public class Player {
         this.columnNumber = columnNumber;
         getPlayerList().add(this);
     }
+
     public static LinkedList<Player> getPlayerList() {
         return playerList;
     }
+
     public static void setPlayerList(LinkedList<Player> playerList) {
         Player.playerList = playerList;
     }
 
-    public boolean isAlive() { return isAlive; }
-    public void setAlive(boolean alive) { isAlive = alive; }
+    static void printActivePlayers() {
+        for (Player player : getPlayerList()) {
+            if (player.isAlive()) {
+                System.out.println(player);
+            }
+        }
+    }
 
-    public char getSymbol() { return symbol; }
+    public boolean isAlive() {
+        return isAlive;
+    }
 
-    public void setSymbol(char symbol) { this.symbol = symbol; }
+    public void setAlive(boolean alive) {
+        isAlive = alive;
+    }
+
+    public char getSymbol() {
+        return symbol;
+    }
+
+    public void setSymbol(char symbol) {
+        this.symbol = symbol;
+    }
 
     public int getRowNumber() {
         return rowNumber;
@@ -54,12 +73,5 @@ public class Player {
                 ", rowNumber=" + rowNumber +
                 ", columnNumber=" + columnNumber +
                 '}';
-    }
-    static void printActivePlayers(){
-        for (Player player: getPlayerList()) {
-            if(player.isAlive()){
-                System.out.println(player);
-            }
-        }
     }
 }

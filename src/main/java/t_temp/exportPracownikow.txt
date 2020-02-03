@@ -1,5 +1,5 @@
-Pracownik{id=<1>, imie=<Jan>, nazwisko=<Kowalski>, pesel=<88223388>, zarobek=<3500>, dzial=<class y_quiz.QuizMain_6_examJAVAbasics.DzialAdministracji>}
-Pracownik{id=<2>, imie=<Janina>, nazwisko=<Kowalska>, pesel=<88223388>, zarobek=<4000>, dzial=<class y_quiz.QuizMain_6_examJAVAbasics.DzialHR>}
-Pracownik{id=<3>, imie=<Andrzej>, nazwisko=<Malinowski>, pesel=<88223388>, zarobek=<4500>, dzial=<class y_quiz.QuizMain_6_examJAVAbasics.DzialHR>}
-Pracownik{id=<4>, imie=<Urszula>, nazwisko=<Malinowska>, pesel=<88223388>, zarobek=<5000>, dzial=<class y_quiz.QuizMain_6_examJAVAbasics.DzialSekretariat>}
+Pracownik{id=<1>, imie=<Jan>, nazwisko=<Kowalski>, pesel=<88223388>, zarobek=<3500>, dzial=<class y_quiz.QuizMain_6_examJAVAcore.DzialAdministracji>}
+Pracownik{id=<2>, imie=<Janina>, nazwisko=<Kowalska>, pesel=<88223388>, zarobek=<4000>, dzial=<class y_quiz.QuizMain_6_examJAVAcore.DzialHR>}
+Pracownik{id=<3>, imie=<Andrzej>, nazwisko=<Malinowski>, pesel=<88223388>, zarobek=<4500>, dzial=<class y_quiz.QuizMain_6_examJAVAcore.DzialHR>}
+Pracownik{id=<4>, imie=<Urszula>, nazwisko=<Malinowska>, pesel=<88223388>, zarobek=<5000>, dzial=<class y_quiz.QuizMain_6_examJAVAcore.DzialSekretariat>}
 Pracownik{id=<5>, imie=<Test>, nazwisko=<test>, pesel=<88223388>, zarobek=<5500>, dzial=<brak>}

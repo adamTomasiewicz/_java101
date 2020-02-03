@@ -5,7 +5,8 @@ public class FillingTableWithRandoms {
         int n = 15;
         int[][] tabResult;
 
-        do { tabResult=tableFill(n);
+        do {
+            tabResult = tableFill(n);
         }
         while (!isCorrectTableResult(tabResult));
 
@@ -52,9 +53,8 @@ public class FillingTableWithRandoms {
 
             }
         }
-            return false;
-        }
-
+        return false;
+    }
 
 
 }

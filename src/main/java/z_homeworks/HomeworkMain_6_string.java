@@ -20,27 +20,28 @@ class HomeworkMain_6_string {
                 "i opisywać pierwsze skamieliny nieptasich dinozaurów w pierwszej połowie XIX wieku, zmontowane szkielety nieptasich dinozaurów stały się głównymi atrakcjami muzeów wielu krajów, a dinozaury stały się częścią kultury. Wielkie rozmiary niektórych grup, jak również niekiedy przerażająca i fantastyczna natura, zapewniły tym stworzeniom regularną obecność " +
                 "w bestsellerach książkowych i filmowych, jak Zaginiony świat Arthura Conan Doyle'a czy Park Jurajski Michaela Crichtona. Trwały entuzjazm opinii publicznej dla tych zwierząt doprowadził do znacznego wsparcia finansowego dla poświęconej im dziedziny nauki. Media regularnie donoszą o nowych odkryciach";
 
-        System.out.println("exe1, number of words: "+countNumberOfWordsInString(stringDino));
-        System.out.println("exe2, number of chars: "+countNumberOfCharsInString(stringDino));
-        System.out.println("exe3, number of numbers: "+countNumberOfDigitsInString(stringDino));
-        System.out.println("exe4, string without anotations: "+stringWithoutAnotations(stringDino));
+        System.out.println("exe1, number of words: " + countNumberOfWordsInString(stringDino));
+        System.out.println("exe2, number of chars: " + countNumberOfCharsInString(stringDino));
+        System.out.println("exe3, number of numbers: " + countNumberOfDigitsInString(stringDino));
+        System.out.println("exe4, string without anotations: " + stringWithoutAnotations(stringDino));
 
 
     }
+
     //TODO: exe1: policz ilość słów w tekście
-    static int countNumberOfWordsInString (String string) {
+    static int countNumberOfWordsInString(String string) {
         if (string == null | string.isEmpty()) {
             return 0;
         }
         int counter = 0;
         int lastCharIndex = string.length() - 1;
-        char characters[] = string.toCharArray();
+        char[] characters = string.toCharArray();
         boolean isWord = false;
         for (int i = 0; i < characters.length; i++) {
-            if (Character.isLetter(characters[i]) && !(isWord) &&i <lastCharIndex) {
+            if (Character.isLetter(characters[i]) && !(isWord) && i < lastCharIndex) {
                 isWord = true;
             }
-            if (!Character.isLetter(characters[i]) && isWord&&i <lastCharIndex) {
+            if (!Character.isLetter(characters[i]) && isWord && i < lastCharIndex) {
                 counter++;
                 isWord = false;
             }
@@ -52,13 +53,13 @@ class HomeworkMain_6_string {
     }
 
     //TODO: exe2: policz ilość liter w tekście
-    static int countNumberOfCharsInString (String string) {
+    static int countNumberOfCharsInString(String string) {
         if (string == null | string.isEmpty()) {
             return 0;
         }
         int counter = 0;
         int lastCharIndex = string.length() - 1;
-        char characters[] = string.toCharArray();
+        char[] characters = string.toCharArray();
 
         for (int i = 0; i < lastCharIndex; i++) {
             if (Character.isLetter(characters[i]) && i < lastCharIndex) {
@@ -67,14 +68,15 @@ class HomeworkMain_6_string {
         }
         return counter;
     }
+
     //TODO: exe3: Wypisz wszystkie liczby z tekstu
-    static int countNumberOfDigitsInString (String string) {
+    static int countNumberOfDigitsInString(String string) {
         if (string == null | string.isEmpty()) {
             return 0;
         }
         int counter = 0;
         int lastCharIndex = string.length() - 1;
-        char characters[] = string.toCharArray();
+        char[] characters = string.toCharArray();
 
         for (int i = 0; i < lastCharIndex; i++) {
             if (Character.isDigit(characters[i]) && i < lastCharIndex) {
@@ -83,48 +85,50 @@ class HomeworkMain_6_string {
         }
         return counter;
     }
+
     //TODO: exe4: Wypisz tekst bez przypisów ([15])
-    static String stringWithoutAnotations (String string) {
+    static String stringWithoutAnotations(String string) {
         if (string == null | string.isEmpty()) {
             return "0";
         }
-        String string2 = string.replace("[\\w+]","");
+        String string2 = string.replace("[\\w+]", "");
         return string2;
     }
 
     //TODO: exe5: Policz ilość linijek w tekście - nie rozumiem???
     //TODO: exe6: Czy litera 'a' została użyta więcej razy niż 'o' ? (Pomiń wielkość liter)
-    static boolean isAmoreFrequentThanO (String string) {
-     String string2=string.toLowerCase();
+    static boolean isAmoreFrequentThanO(String string) {
+        String string2 = string.toLowerCase();
         int counterA = 0;
         int counterO = 0;
-        char characters[] = string.toCharArray();
-        for (int i = 0; i < string.length()-1; i++) {
-            if (string2.charAt(i)=='a') {
+        char[] characters = string.toCharArray();
+        for (int i = 0; i < string.length() - 1; i++) {
+            if (string2.charAt(i) == 'a') {
                 counterA++;
             }
-            if (string2.charAt(i)=='o') {
+            if (string2.charAt(i) == 'o') {
                 counterA++;
             }
         }
-        return counterA>counterO?true:false;
+        return counterA > counterO;
     }
 
     //TODO: exe7: Czy litera 'a' została użyta więcej razy niż 'o' ? (Uwzględnij wielkość liter)
-    static boolean isAmoreFrequentThanOcaseSens (String string) {
+    static boolean isAmoreFrequentThanOcaseSens(String string) {
         int counterA = 0;
         int counterO = 0;
-        char characters[] = string.toCharArray();
-        for (int i = 0; i < string.length()-1; i++) {
-            if (string.charAt(i)=='a') {
+        char[] characters = string.toCharArray();
+        for (int i = 0; i < string.length() - 1; i++) {
+            if (string.charAt(i) == 'a') {
                 counterA++;
             }
-            if (string.charAt(i)=='o') {
+            if (string.charAt(i) == 'o') {
                 counterA++;
             }
         }
-        return counterA>counterO?true:false;
+        return counterA > counterO;
     }
+
     //TODO: exe8: Wypisz wszystkie słowa rozpoczynające się od 'Dino' lub 'dino'
     static void countWordsStartingFromDino() {
 

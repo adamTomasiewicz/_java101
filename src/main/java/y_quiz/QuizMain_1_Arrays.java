@@ -104,13 +104,13 @@ public class QuizMain_1_Arrays {
 //    a
 //    b <----*/
 
-/*//TODO: ex8: Zaznacz zestaw wszystkich specyfikatorów dostępu występujących w języku Java.
-// public, private, inherited
-// public, modified, private
-// public, protected, private, package <----
-// public protected, private
-// public, private, inherited, protected
- */
+    /*//TODO: ex8: Zaznacz zestaw wszystkich specyfikatorów dostępu występujących w języku Java.
+    // public, private, inherited
+    // public, modified, private
+    // public, protected, private, package <----
+    // public protected, private
+    // public, private, inherited, protected
+     */
 /*//TODO: ex9: Co się wypisze na konsoli?
 public static void main(String[] args) {
     String str = "Komputer";
@@ -123,17 +123,16 @@ public static void main(String[] args) {
 //        Błąd kompilacji
 //        false*/
 //TODO: ex10: Co się wypisze na konsoli?
-public static void main(String[] args) {
-    int[] tab = {4,3,2,3};
-    int i = tab.length-1;
-    while(i < tab.length) {
-        System.out.print(tab[i]);
-        if(tab[i] % 2 != 0) {
-            i -= 1;
+    public static void main(String[] args) {
+        int[] tab = {4, 3, 2, 3};
+        int i = tab.length - 1;
+        while (i < tab.length) {
+            System.out.print(tab[i]);
+            if (tab[i] % 2 != 0) {
+                i -= 1;
+            } else i *= i;
         }
-        else i *= i;
     }
-}
 //        Nic się nie wypisze
 //        43
 //        Błąd kompilacji

@@ -15,7 +15,7 @@ public class Main {
 
 
         for (int i = 0; i < 5; i++)
-            listaKart.add(talia.get((int) (Math.random() * 52 )));
+            listaKart.add(talia.get((int) (Math.random() * 52)));
 
         System.out.println(listaKart);
         System.out.println(ukladyPokera(listaKart));

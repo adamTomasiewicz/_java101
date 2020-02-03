@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../../__priv" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../_priv" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../_git/_JediOrganizer_SWING" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../_git/_userAuthorisation_SWING-JDBC" vcs="Git" />
   </component>
 </project>

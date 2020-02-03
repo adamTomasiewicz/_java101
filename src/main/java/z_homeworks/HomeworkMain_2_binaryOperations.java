@@ -202,22 +202,22 @@ class HomeworkMain_2_binaryOperations {
         char[] string11 = string1.toCharArray();
         char[] string22 = string2.toCharArray();
         String stringResult;
-        String stringResultFinal="";
-        int counter=0;
-        for (int i = topLength-1; i >= 0; i--) {
-            stringResult="";
-            for (int k = 1; k <=counter ; k++) {
-                stringResult=stringResult+'0';
+        String stringResultFinal = "";
+        int counter = 0;
+        for (int i = topLength - 1; i >= 0; i--) {
+            stringResult = "";
+            for (int k = 1; k <= counter; k++) {
+                stringResult = stringResult + '0';
             }
-            for (int j = lowLength-1; j >=0 ; j--) {
-                stringResult= (string11[i]=='1'&string22[j]=='1'? "1":"0")+stringResult;
+            for (int j = lowLength - 1; j >= 0; j--) {
+                stringResult = (string11[i] == '1' & string22[j] == '1' ? "1" : "0") + stringResult;
             }
-            stringResultFinal=summBinaryWithLoop_1(stringResultFinal,stringResult);
+            stringResultFinal = summBinaryWithLoop_1(stringResultFinal, stringResult);
             counter++;
         }
         return stringResultFinal;
     }
-    
+
     static void multiplyBinaryWithInteger_2(String string1, String string2) {
         int result = Math.multiplyExact(Integer.parseInt(string1, 2), Integer.parseInt(string2, 2));
         System.out.println(Integer.toBinaryString(result));

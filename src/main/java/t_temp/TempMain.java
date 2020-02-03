@@ -13,7 +13,7 @@ public class TempMain {
 
 //		scanner.close();
 
- //       PrintWriter pw = new PrintWriter("C:\\Users\\Weronika\\Desktop\\Pusty.txt");
+        //       PrintWriter pw = new PrintWriter("C:\\Users\\Weronika\\Desktop\\Pusty.txt");
 //		pw.print("Hello Wo\trld");
 //
 //		pw.flush(); 			// zwalnia bufor, pozostawia otwarte polaczenie z plikiem

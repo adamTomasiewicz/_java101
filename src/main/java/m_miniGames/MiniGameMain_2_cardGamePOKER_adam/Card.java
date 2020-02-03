@@ -1,24 +1,24 @@
 package m_miniGames.MiniGameMain_2_cardGamePOKER_adam;
 
-public class Card implements Comparable<Card>{
-        Figure figure;
-        Color color;
+public class Card implements Comparable<Card> {
+    Figure figure;
+    Color color;
 
-        public Card(Figure figure, Color color) {
-            this.figure = figure;
-            this.color = color;
-        }
+    public Card(Figure figure, Color color) {
+        this.figure = figure;
+        this.color = color;
+    }
 
-        @Override
+    @Override
     public int compareTo(Card card) {
         return this.getFigure().compareTo(card.getFigure());
     }
 
 
     @Override
-        public String toString() {
-            return "Karta [figure=" + figure + ", color=" + color + "]";
-        }
+    public String toString() {
+        return "Karta [figure=" + figure + ", color=" + color + "]";
+    }
 
     public Figure getFigure() {
         return figure;

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Dog {
     static List<Dog> listOfAllDogs = new ArrayList<>();
-    static int counterDogID=0;
+    static int counterDogID = 0;
 
     private int dogID;
     private String name;
@@ -14,9 +14,8 @@ public class Dog {
     private Color color;
 
 
-
     public Dog(String name, Size size, Color color) {
-        this.dogID=++counterDogID;
+        this.dogID = ++counterDogID;
         this.name = name;
         this.size = size;
         this.color = color;
@@ -32,6 +31,14 @@ public class Dog {
         Dog.counterDogID = counterDogID;
     }
 
+    public static List<Dog> getListOfAllDogs() {
+        return listOfAllDogs;
+    }
+
+    public static void setListOfAllDogs(List<Dog> listOfAllDogs) {
+        Dog.listOfAllDogs = listOfAllDogs;
+    }
+
     public int getDogID() {
         return dogID;
     }
@@ -40,13 +47,6 @@ public class Dog {
         this.dogID = dogID;
     }
 
-    public static List<Dog> getListOfAllDogs() {
-        return listOfAllDogs;
-    }
-
-    public static void setListOfAllDogs(List<Dog> listOfAllDogs) {
-        Dog.listOfAllDogs = listOfAllDogs;
-    }
     public String getName() {
         return name;
     }
@@ -70,9 +70,10 @@ public class Dog {
     public void setColor(Color color) {
         this.color = color;
     }
+
     @Override
     public String toString() {
-        return "Dog{" +"  "+
+        return "Dog{" + "  " +
                 " name=<" + getName() + "> ," +
                 " name=<" + getSize() + "> ," +
                 " name=<" + getColor() + "> ," +

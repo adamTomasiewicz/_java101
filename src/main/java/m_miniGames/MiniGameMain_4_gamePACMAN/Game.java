@@ -11,7 +11,6 @@ public class Game implements Actionable {
     private int counterScore;
 
 
-
     private Game() {
         this.charArray = new char[][]{
                 {'-', '-', '-', '-', '-', '-', '-', '-', '-', '-'},
@@ -25,8 +24,8 @@ public class Game implements Actionable {
                 {'-', '-', '-', '-', '-', '-', '-', '-', '-', '-'},
                 {'-', '-', '-', '-', '-', '-', '-', '-', '-', '-'},
         };
-        this.counterScore=10;
-        this.counterMoves=0;
+        this.counterScore = 10;
+        this.counterMoves = 0;
     }
 
 
@@ -93,7 +92,7 @@ public class Game implements Actionable {
                     System.out.print(getCharArray()[i][j] + " ");
                 }
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 
@@ -102,8 +101,8 @@ public class Game implements Actionable {
         for (int i = 0, lenght = this.getCharArray().length; i < lenght; i++) {
             for (int j = 0, lenght2 = this.getCharArray()[i].length; j < lenght2; j++) {
                 getCharArray()[i][j] = '-';
-                }
             }
+        }
 
     }
 
@@ -198,7 +197,7 @@ public class Game implements Actionable {
         do {
 
             didMove = false;
-            anyDolarAlive=false;
+            anyDolarAlive = false;
 //HUMAN INPUT
             while (!didMove) {
                 System.out.println("type input");
@@ -268,7 +267,7 @@ public class Game implements Actionable {
                 if (Player.getPlayerList().get(i).isAlive()) {
                     didMove = false;
                     while (!didMove) {
-                        System.out.println("test "+ Player.getPlayerList().get(i));
+                        System.out.println("test " + Player.getPlayerList().get(i));
                         try {
                             randomResult = random1.nextInt(4);
                             randomDirection = stringArray[randomResult];
@@ -276,8 +275,8 @@ public class Game implements Actionable {
                                 Game.getInstance().movePlayer(Player.getPlayerList().get(i), randomDirection);
                                 didMove = true;
                             }
-                            if (Player.getPlayerList().get(i).getSymbol() == '$' & counterMoves % 2 == 1){
-                                didMove=true;
+                            if (Player.getPlayerList().get(i).getSymbol() == '$' & counterMoves % 2 == 1) {
+                                didMove = true;
                             }
                             if (Player.getPlayerList().get(i).getSymbol() == '@') {
                                 Game.getInstance().movePlayer(Player.getPlayerList().get(i), randomDirection);
@@ -291,16 +290,18 @@ public class Game implements Actionable {
             }
             System.out.println("end of NPC moves");
             //is anyDolarAlive?
-            for (Player player: Player.getPlayerList()) {
-                if(player.getSymbol()=='$' & player.isAlive()){ anyDolarAlive=true;}
+            for (Player player : Player.getPlayerList()) {
+                if (player.getSymbol() == '$' & player.isAlive()) {
+                    anyDolarAlive = true;
+                }
             }
             System.out.println("end of dolar check");
 
-            setCounterScore(getCounterScore()-1);
-            setCounterMoves(getCounterMoves()+1);
+            setCounterScore(getCounterScore() - 1);
+            setCounterMoves(getCounterMoves() + 1);
             printInGameMap();
         }
-        while (input != 'q' & Player.getPlayerList().getFirst().isAlive()&anyDolarAlive);
+        while (input != 'q' & Player.getPlayerList().getFirst().isAlive() & anyDolarAlive);
         if (input == 'q' & Player.getPlayerList().getFirst().isAlive()) {
             System.out.println("You quit the game. Better luck next time!");
             System.out.println("Your score: " + getCounterScore());
@@ -324,7 +325,7 @@ public class Game implements Actionable {
 
         switch (direction) {
             case "north":
-               checkMove(playerActive, playerActive.getRowNumber() - 1, playerActive.getColumnNumber());
+                checkMove(playerActive, playerActive.getRowNumber() - 1, playerActive.getColumnNumber());
                 playerActive.setRowNumber(playerActive.getRowNumber() - 1);
 
                 break;
@@ -334,7 +335,7 @@ public class Game implements Actionable {
 
                 break;
             case "south":
-                checkMove(playerActive,playerActive.getRowNumber() + 1, playerActive.getColumnNumber());
+                checkMove(playerActive, playerActive.getRowNumber() + 1, playerActive.getColumnNumber());
                 playerActive.setRowNumber(playerActive.getRowNumber() + 1);
 
                 break;
@@ -347,8 +348,8 @@ public class Game implements Actionable {
 
 
     public void isBorder(Player playerActive, int rowNumber, int columnNumber) throws ArrayIndexOutOfBoundsException {
-        if (rowNumber < 0 | rowNumber > Game.getInstance().getCharArray().length-1 |
-                columnNumber < 0 | columnNumber> Game.getInstance().getCharArray()[0].length-1) {
+        if (rowNumber < 0 | rowNumber > Game.getInstance().getCharArray().length - 1 |
+                columnNumber < 0 | columnNumber > Game.getInstance().getCharArray()[0].length - 1) {
             throw new ArrayIndexOutOfBoundsException();
         }
     }
@@ -358,11 +359,11 @@ public class Game implements Actionable {
 
         for (Player playerPassive : Player.getPlayerList()) {
             if (playerActive.getSymbol() == 'P'
-                    &playerActive.getRowNumber()==playerPassive.getRowNumber()
-                    &playerActive.getColumnNumber()==playerPassive.getColumnNumber()) {
+                    & playerActive.getRowNumber() == playerPassive.getRowNumber()
+                    & playerActive.getColumnNumber() == playerPassive.getColumnNumber()) {
                 if (playerPassive.getSymbol() == '$') {
                     killPlayer(playerPassive);
-                    setCounterScore(getCounterScore()+5);
+                    setCounterScore(getCounterScore() + 5);
                 }
                 if (playerPassive.getSymbol() == '@') {
                     killPlayer(playerActive);
@@ -381,11 +382,9 @@ public class Game implements Actionable {
 
     @Override
     public void checkMove(Player playerActive, int rowNumber, int columnNumber) throws ArrayIndexOutOfBoundsException {
-        isBorder(playerActive,rowNumber, columnNumber);
+        isBorder(playerActive, rowNumber, columnNumber);
         isEmpty(playerActive, rowNumber, columnNumber);
     }
-
-
 
 
     @Override
@@ -403,6 +402,7 @@ public class Game implements Actionable {
     public void setCharArray(char[][] charArray) {
         this.charArray = charArray;
     }
+
     public int getCounterMoves() {
         return counterMoves;
     }

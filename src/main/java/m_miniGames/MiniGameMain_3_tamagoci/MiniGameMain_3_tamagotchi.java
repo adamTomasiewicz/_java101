@@ -1,7 +1,5 @@
 package m_miniGames.MiniGameMain_3_tamagoci;
 
-import m_miniGames.MiniGameMain_4_gamePACMAN.Game;
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -19,10 +17,10 @@ public class MiniGameMain_3_tamagotchi {
     private byte counterMoves;
 
     public MiniGameMain_3_tamagotchi() {
-        this.isAlvie=true;
-        this.foodLVL=3;
-        this.sleepLVL=3;
-        this.happyLVL=3;
+        this.isAlvie = true;
+        this.foodLVL = 3;
+        this.sleepLVL = 3;
+        this.happyLVL = 3;
 
     }
 
@@ -42,56 +40,56 @@ public class MiniGameMain_3_tamagotchi {
 
         Scanner scanner1 = new Scanner(System.in);
         char input = '\0';
-        boolean didMove=false;
+        boolean didMove = false;
 
         printMenu();
         do {
 
-            System.out.println("-----DAY "+ tamagotchi1.getCounterMoves()+"-----");
+            System.out.println("-----DAY " + tamagotchi1.getCounterMoves() + "-----");
             printCurrentLVLs();
-            didMove=false;
+            didMove = false;
 
-            while (didMove!=true){
-            System.out.println("-----type your input:-----");
-            input = scanner1.next().charAt(0);
-            switch (input) {
-                case 'a':
-                    tamagotchi1.feedUp();
-                    didMove=true;
-                    break;
-                case 's':
-                    tamagotchi1.putToSleep();
-                    didMove=true;
-                    break;
-                case 'd':
-                    tamagotchi1.playToMakeHappy();
-                    didMove=true;
-                    break;
-                case 'f':
-                    tamagotchi1.getMedicine();
-                    didMove=true;
-                    break;
+            while (didMove != true) {
+                System.out.println("-----type your input:-----");
+                input = scanner1.next().charAt(0);
+                switch (input) {
+                    case 'a':
+                        tamagotchi1.feedUp();
+                        didMove = true;
+                        break;
+                    case 's':
+                        tamagotchi1.putToSleep();
+                        didMove = true;
+                        break;
+                    case 'd':
+                        tamagotchi1.playToMakeHappy();
+                        didMove = true;
+                        break;
+                    case 'f':
+                        tamagotchi1.getMedicine();
+                        didMove = true;
+                        break;
 
 
-                case 'z':
-                    tamagotchi1.cleanPoop();
-                    didMove=true;
-                    break;
-                case 'c':
-                    System.out.println("DOING NOTHING");
-                    didMove=true;
-                    break;
-                case 'v':
-                    printCurrentLVLs();
-                    break;
+                    case 'z':
+                        tamagotchi1.cleanPoop();
+                        didMove = true;
+                        break;
+                    case 'c':
+                        System.out.println("DOING NOTHING");
+                        didMove = true;
+                        break;
+                    case 'v':
+                        printCurrentLVLs();
+                        break;
 
-                case 'q':
-                    didMove=true;
-                    break;
-                case 'w':
-                    printMenu();
-                    break;
-            }
+                    case 'q':
+                        didMove = true;
+                        break;
+                    case 'w':
+                        printMenu();
+                        break;
+                }
 
             }
 
@@ -100,9 +98,10 @@ public class MiniGameMain_3_tamagotchi {
             tamagotchi1.endTurn();
         }
         while (tamagotchi1.isAlvie() & input != 'q');
-        if(tamagotchi1.isAlvie==false){
-            System.out.println("Your Tamagotchi died. Better luck next time!");}
-        if(input=='q'){
+        if (tamagotchi1.isAlvie == false) {
+            System.out.println("Your Tamagotchi died. Better luck next time!");
+        }
+        if (input == 'q') {
             System.out.println("You quit the game. Better luck next time!");
         }
         scanner1.close();
@@ -125,45 +124,58 @@ public class MiniGameMain_3_tamagotchi {
         System.out.println("press w to print menu");
 
     }
-    static void printCurrentLVLs(){
-        System.out.println("food lvl: "+getTamagotchi().getFoodLVL());
-        System.out.println("happy lvl: "+getTamagotchi().getHappyLVL());
-        System.out.println("sleep lvl: "+getTamagotchi().getSleepLVL());
 
-        System.out.println("poop lvl: "+getTamagotchi().getPoopLVL());
-        System.out.println("sickness lvl: "+getTamagotchi().getSicknessLVL());
+    static void printCurrentLVLs() {
+        System.out.println("food lvl: " + getTamagotchi().getFoodLVL());
+        System.out.println("happy lvl: " + getTamagotchi().getHappyLVL());
+        System.out.println("sleep lvl: " + getTamagotchi().getSleepLVL());
+
+        System.out.println("poop lvl: " + getTamagotchi().getPoopLVL());
+        System.out.println("sickness lvl: " + getTamagotchi().getSicknessLVL());
 
     }
-    public void endTurn(){
-        setFoodLVL((byte)(getFoodLVL()-1));
-        setPoopLVL((byte) (getPoopLVL()+1));
-        setSleepLVL((byte) (getSleepLVL()-1));
-        setHappyLVL((byte) (getHappyLVL()-1));
+
+    public void endTurn() {
+        setFoodLVL((byte) (getFoodLVL() - 1));
+        setPoopLVL((byte) (getPoopLVL() + 1));
+        setSleepLVL((byte) (getSleepLVL() - 1));
+        setHappyLVL((byte) (getHappyLVL() - 1));
 
         Random random1 = new Random();
-        int randomInt=random1.nextInt(2);
-        if (getSicknessLVL()==0) {
+        int randomInt = random1.nextInt(2);
+        if (getSicknessLVL() == 0) {
             setSicknessLVL((byte) randomInt);
+        } else {
+            setSicknessLVL((byte) (getSicknessLVL() + 1));
         }
-        else {
-            setSicknessLVL((byte) (getSicknessLVL()+1));
+        if (getPoopLVL() > 1 & getSicknessLVL() > 0) {
+            setSicknessLVL((byte) (getSicknessLVL() + 1));
         }
-        if (getPoopLVL()>1&getSicknessLVL()>0){
-            setSicknessLVL((byte) (getSicknessLVL()+1));
-        }
-        setCounterMoves((byte) (getCounterMoves()+1));
-    };
+        setCounterMoves((byte) (getCounterMoves() + 1));
+    }
 
     public void putToSleep() {
-        setSleepLVL((byte) 5); }
-    public void getMedicine(){
-        setSicknessLVL((byte) 0); }
-        public void playToMakeHappy(){setHappyLVL((byte) 5);}
-    public void cleanPoop(){setPoopLVL((byte) 0);}
-    public void feedUp(){setFoodLVL((byte) 5);}
+        setSleepLVL((byte) 5);
+    }
 
-    public void checkAlive(){
-        if(getFoodLVL()==0|getSleepLVL()==0|getSicknessLVL()==3){
+    public void getMedicine() {
+        setSicknessLVL((byte) 0);
+    }
+
+    public void playToMakeHappy() {
+        setHappyLVL((byte) 5);
+    }
+
+    public void cleanPoop() {
+        setPoopLVL((byte) 0);
+    }
+
+    public void feedUp() {
+        setFoodLVL((byte) 5);
+    }
+
+    public void checkAlive() {
+        if (getFoodLVL() == 0 | getSleepLVL() == 0 | getSicknessLVL() == 3) {
             setAlvie(false);
             System.out.println("RIP TAMAGOTCHI :(");
         }

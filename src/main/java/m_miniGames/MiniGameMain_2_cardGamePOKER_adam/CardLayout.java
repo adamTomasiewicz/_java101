@@ -13,24 +13,24 @@ enum CardLayout {
 
     int value;
 
-    private List<Card> cardLayout ;
+    private List<Card> cardLayout;
 
 
     CardLayout(int value) {
-        this.value=value;
+        this.value = value;
         this.cardLayout = Arrays.asList(
-                new Card(Figure.TWO,Color.PIK),
-                new Card(Figure.TWO,Color.PIK),
-                new Card(Figure.TWO,Color.PIK),
-                new Card(Figure.TWO,Color.PIK),
-                new Card(Figure.TWO,Color.PIK));
+                new Card(Figure.TWO, Color.PIK),
+                new Card(Figure.TWO, Color.PIK),
+                new Card(Figure.TWO, Color.PIK),
+                new Card(Figure.TWO, Color.PIK),
+                new Card(Figure.TWO, Color.PIK));
     }
 
     public List<Card> getLayout() {
         return cardLayout;
     }
 
-    public void setCardInLayout (int index, Card card) {
+    public void setCardInLayout(int index, Card card) {
         getLayout().set(index, card);
     }
 }

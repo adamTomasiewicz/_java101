@@ -46,33 +46,43 @@ public class HomeworkMain_8_extrasAndCiphers {
     }
 
     //todo: algorytm znajdujacy liczby super (takie które są pierwsze i ich kolejna pozycja rowniez jest liczba pierwsza 3, 5, 11, 17, 31, 41, 59, 67, 83, ..)
-    static boolean isPrimeNumber (int number) {
-        if (number==0|number==1){ return false; }
-        int counter=0;
-        for (int i = 1; i <=number ; i++) {
-            if(number%i==0) counter++;
-        } return (counter==2)?true:false; }
+    static boolean isPrimeNumber(int number) {
+        if (number == 0 | number == 1) {
+            return false;
+        }
+        int counter = 0;
+        for (int i = 1; i <= number; i++) {
+            if (number % i == 0) counter++;
+        }
+        return counter == 2;
+    }
+
     static int[] find100primeNumbers() {
         int[] find100primeNumbers = new int[100];
         int a = 2;
         int counter;
         while (find100primeNumbers[99] == 0) {
             for (int i = a; i < 1000; ) {
-                if(isPrimeNumber(i)){
+                if (isPrimeNumber(i)) {
                     for (int k = 0; k < find100primeNumbers.length; k++) {
                         if (find100primeNumbers[k] == 0) {
                             find100primeNumbers[k] = i;
                             break;
-                        }      }
-                } a= ++i;
-            } }
-        return find100primeNumbers; }
-static void findSuperPrimeNumbers () {
-        int[] find100primeNumbers = find100primeNumbers();
-            //2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 ...
-        for (int i = 2; i <find100primeNumbers.length+1 ; i++) {
-            if(isPrimeNumber(i)) System.out.println(find100primeNumbers[i-1]);
+                        }
+                    }
+                }
+                a = ++i;
+            }
+        }
+        return find100primeNumbers;
     }
+
+    static void findSuperPrimeNumbers() {
+        int[] find100primeNumbers = find100primeNumbers();
+        //2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 ...
+        for (int i = 2; i < find100primeNumbers.length + 1; i++) {
+            if (isPrimeNumber(i)) System.out.println(find100primeNumbers[i - 1]);
+        }
     }
     //todo: *kodowanie huffmana - odkowdowanie i zakodowanie liscie w drzewie?
 

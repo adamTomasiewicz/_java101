@@ -7,16 +7,16 @@ public class Deck {
 
     static ArrayList<Deck> allDecks = new ArrayList<>();
     private boolean isShuffled;
-    private ArrayList<Card> listOfCards= new ArrayList<>();
+    private ArrayList<Card> listOfCards = new ArrayList<>();
 
 
     public Deck() {
 
         this.isShuffled = false;
 
-        for (Figure figure: Figure.values()){
-            for (Color color: Color.values()){
-                this.listOfCards.add(new Card(figure,color));
+        for (Figure figure : Figure.values()) {
+            for (Color color : Color.values()) {
+                this.listOfCards.add(new Card(figure, color));
             }
         }
         allDecks.add(this);
@@ -37,7 +37,7 @@ public class Deck {
 
     public void setShuffled() {
         Collections.shuffle(this.listOfCards);
-        this.isShuffled=true;
+        this.isShuffled = true;
     }
 
     public ArrayList<Card> getListOfCards() {
