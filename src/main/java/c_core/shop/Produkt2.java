@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.b_akademia.b_oop.klasy1.zad6;
+package c_core.shop;
 
 public class Produkt2 {
     private Integer produktID;

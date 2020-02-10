@@ -1,4 +1,4 @@
-package t_threads;
+package e_extras._threads;
 
 public class ThreadsMain_1_threadsBasic {
 

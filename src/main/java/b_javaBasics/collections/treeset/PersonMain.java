@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.h_collections.queue.treeset;
+package b_javaBasics.collections.treeset;
 
 import java.util.Set;
 import java.util.TreeSet;

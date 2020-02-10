@@ -1,4 +1,4 @@
-package j_jdbc;
+package s_sql_jdbcs;
 
 public class Klub {
     private int id;

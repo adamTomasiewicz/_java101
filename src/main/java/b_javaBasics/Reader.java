@@ -1,4 +1,4 @@
-package pl.akademiakodu.classes_And_Objects;
+package b_javaBasics;
 
 import java.util.*;
 

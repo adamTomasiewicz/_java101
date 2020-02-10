@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.jdbc_temp.model;
+package s_sql_jdbcs.bmiCalculator.model;
 
 public class BmiRecord {
     private int id;

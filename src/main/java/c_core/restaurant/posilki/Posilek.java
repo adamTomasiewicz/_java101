@@ -1,4 +1,4 @@
-package o_objectOP.restaurant.posilki;
+package c_core.restaurant.posilki;
 
 public abstract class Posilek {
 

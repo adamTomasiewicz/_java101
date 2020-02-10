@@ -1,4 +1,4 @@
-package d_advanced_lambdas;
+package e_extras._lambda;
 
 public class Address {
 

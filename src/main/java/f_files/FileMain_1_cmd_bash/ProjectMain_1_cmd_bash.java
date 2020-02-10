@@ -169,7 +169,7 @@ public class ProjectMain_1_cmd_bash {
         System.out.println("type name of directory or \"..\" to go up or \"[d:]\" to change disk");
         String input2 = scanner2.nextLine();
 
-        if (input2.equals("..")) {
+        if (input2.equals("src/main")) {
             for (int i = 0; i < stringArray.length - 1; i++) {
                 newDirectory = newDirectory + stringArray[i] + "\\";
             }

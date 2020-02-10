@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.h_collections.queue.pan_tadeusz;
+package b_javaBasics.collections.pan_tadeusz;
 
 import java.util.Comparator;
 import java.util.Map;

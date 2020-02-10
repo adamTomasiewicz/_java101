@@ -1,4 +1,4 @@
-package o_objectOP.restaurant;
+package c_core.restaurant;
 
 import o_objectOP.restaurant.skladniki.Mieso;
 import o_objectOP.restaurant.skladniki.Warzywa;

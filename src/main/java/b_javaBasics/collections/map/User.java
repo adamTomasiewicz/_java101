@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.h_collections.queue.map;
+package b_javaBasics.collections.map;
 
 import java.util.ArrayList;
 import java.util.List;

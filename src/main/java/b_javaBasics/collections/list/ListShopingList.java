@@ -1,4 +1,4 @@
-package c_core_collectionsLists;
+package b_javaBasics.collections.list;
 
 import java.util.ArrayList;
 import java.util.List;

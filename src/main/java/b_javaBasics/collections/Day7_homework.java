@@ -1,4 +1,4 @@
-package pl.akademiakodu.basics;
+package b_javaBasics.collections;
 
 public class Day7_homework {
 }

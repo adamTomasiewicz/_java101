@@ -1,4 +1,4 @@
-package c_core_exceptions;
+package b_javaBasics._exceptions;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

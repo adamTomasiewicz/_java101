@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.k_date_and_time;
+package b_javaBasics._date_and_time;
 
 import java.time.Duration;
 import java.time.Instant;

@@ -1,4 +1,4 @@
-package c_core_exceptions.exceptions_for_mindcraft;
+package b_javaBasics._exceptions.exceptions_for_mindcraft;
 
 import java.util.ArrayList;
 import java.util.List;

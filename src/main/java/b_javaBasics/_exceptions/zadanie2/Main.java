@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.j_exceptions.zadanie2;
+package b_javaBasics._exceptions.zadanie2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

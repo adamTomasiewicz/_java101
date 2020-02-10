@@ -1,4 +1,4 @@
-package d_advanced_generics;
+package e_extras._generics;
 
 import java.util.Arrays;
 import java.util.List;

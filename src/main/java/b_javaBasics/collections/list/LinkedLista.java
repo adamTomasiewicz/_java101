@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.h_collections.queue.list;
+package b_javaBasics.collections.list;
 
 public class LinkedLista {
 }

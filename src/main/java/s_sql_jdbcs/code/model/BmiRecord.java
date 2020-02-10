@@ -1,4 +1,4 @@
-package pl.academy.code.model;
+package s_sql_jdbcs.code.model;
 
 public class BmiRecord {
     private int id;

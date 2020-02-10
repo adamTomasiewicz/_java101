@@ -1,4 +1,4 @@
-package y_quizes;
+package y_quiz;
 
 public class QuizMain_1_Arrays {
 

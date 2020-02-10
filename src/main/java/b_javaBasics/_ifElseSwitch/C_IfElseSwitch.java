@@ -1,4 +1,4 @@
-package b_javaBasics.conditions_ifElseSwitch;
+package b_javaBasics._ifElseSwitch;
 
 public class C_IfElseSwitch {
 //THEORY

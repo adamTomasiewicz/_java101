@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.j_exceptions.zadanie3;
+package b_javaBasics._exceptions.zadanie3;
 
 public class Main {
 

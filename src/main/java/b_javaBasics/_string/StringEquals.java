@@ -1,3 +1,5 @@
+package b_javaBasics._string;
+
 public class StringEquals {
     public static void main(java.lang.String[] args) {
 

@@ -1,4 +1,4 @@
-package b_javaBasics;
+package b_javaBasics.methods;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package d_advanced_streams;
+package e_extras._streams;
 
 import java.util.Arrays;
 import java.util.List;

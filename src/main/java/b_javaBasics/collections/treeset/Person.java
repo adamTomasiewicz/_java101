@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.h_collections.queue.treeset;
+package b_javaBasics.collections.treeset;
 
 public class Person {//implements Comparable<Person>{
     private final int id;

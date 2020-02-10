@@ -1,4 +1,4 @@
-package o_objectOP.restaurant;
+package c_core.restaurant;
 
 public class RestaurantMain {
 }

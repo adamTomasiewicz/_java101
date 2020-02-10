@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.e_mindcraft;
+package m_mindcraft;
 
 public class BlockGrass extends Block {
 }

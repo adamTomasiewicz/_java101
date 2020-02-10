@@ -1,4 +1,4 @@
-package b_javaBasics.loops;
+package b_javaBasics._loops;
 
 public class Day2_loops {
     public static void main(String[] args) {

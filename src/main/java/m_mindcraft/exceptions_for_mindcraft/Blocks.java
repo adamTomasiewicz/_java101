@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.j_exceptions.exceptions_for_mindcraft;
+package m_mindcraft.exceptions_for_mindcraft;
 
 import java.util.ArrayList;
 import java.util.List;

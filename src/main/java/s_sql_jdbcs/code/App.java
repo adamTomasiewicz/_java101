@@ -1,4 +1,4 @@
-package pl.academy.code;
+package s_sql_jdbcs.code;
 
 import pl.academy.code.model.BmiRecord;
 import pl.academy.code.repositories.BmiRepository;

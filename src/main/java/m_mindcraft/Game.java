@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.b_akademia.b_oop.e_gra;
+package m_mindcraft;
 
 import java.util.ArrayList;
 import java.util.List;

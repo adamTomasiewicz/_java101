@@ -1,4 +1,4 @@
-package pl.akademiakodu.basicsv2;
+package b_javaBasics._dataTypes_variables;
 
 
 //THEORY

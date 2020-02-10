@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.c_singleton;
+package e_extras._patterns.singleton;
 
 public class DatabaseManager {
     private static DatabaseManager instance;

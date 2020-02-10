@@ -1,4 +1,4 @@
-package b_javaBasics.arrays;
+package b_javaBasics._arrays;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

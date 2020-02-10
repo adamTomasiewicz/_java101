@@ -1,4 +1,4 @@
-package b_javaBasics.conditions_ifElseSwitch;
+package b_javaBasics._ifElseSwitch;
 
 public class Day2_if {
     public static void main(String[] args) {

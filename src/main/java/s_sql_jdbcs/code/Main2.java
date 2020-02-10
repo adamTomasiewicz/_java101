@@ -1,4 +1,4 @@
-package pl.academy.code;
+package s_sql_jdbcs.code;
 
 import java.util.HashSet;
 import java.util.Iterator;

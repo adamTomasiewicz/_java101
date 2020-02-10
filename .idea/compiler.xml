@@ -6,15 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="_JediOrganizer_SWING" />
-        <module name="_userAuthorisation_SWING-JDBC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="_bestDrive" target="11" />
       <module name="_bestDrive (2)" target="11" />
       <module name="_changePDFnameEclipse" target="11" />
+      <module name="_java101" target="11" />
+      <module name="_JediOrganizer_SWING" target="11" />
       <module name="_myAuthorisation" target="11" />
       <module name="_myFirstProject" target="11" />
+      <module name="_userAuthorisation_SWING-JDBC" target="11" />
+      <module name="jdbc-basics3" target="11" />
+      <module name="kantor-javafx-appv2" target="13" />
+      <module name="spring_basic" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

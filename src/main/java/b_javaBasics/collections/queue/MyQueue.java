@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.h_collections.queue.queue;
+package b_javaBasics.collections.queue;
 
 import java.util.Arrays;
 import java.util.StringJoiner;

@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.j_exceptions;
+package b_javaBasics._exceptions;
 
 public class NoAvailableCarException extends Exception {
     private final String rentalName;

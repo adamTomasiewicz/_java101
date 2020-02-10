@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.jdbc_temp;
+package s_sql_jdbcs.bmiCalculator;
 
 import java.util.HashSet;
 import java.util.Iterator;

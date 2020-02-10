@@ -1,4 +1,4 @@
-package c_core_String;
+package b_javaBasics._string;
 
 public class StringMain {
 

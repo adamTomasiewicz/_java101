@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.b_pojo;
+package e_extras._patterns.pojo;
 
 public class Main {
     public static void main(String[] args) {

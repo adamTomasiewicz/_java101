@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.h_collections.queue.pan_tadeusz;
+package b_javaBasics.collections.pan_tadeusz;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

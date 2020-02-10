@@ -1,4 +1,4 @@
-package d_advanced_recurrence;
+package e_extras._recursion;
 
 public class RecurrenceMain {
 

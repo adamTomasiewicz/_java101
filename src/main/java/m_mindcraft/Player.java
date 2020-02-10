@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.b_akademia.b_oop.e_gra;
+package m_mindcraft;
 
 public class Player {
     private String name;

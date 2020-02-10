@@ -1,4 +1,4 @@
-package d_advanced_fileScannerReaderWriter;
+package f_files.fileScannerReaderWriter;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;

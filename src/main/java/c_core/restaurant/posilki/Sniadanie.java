@@ -1,4 +1,4 @@
-package o_objectOP.restaurant.posilki;
+package c_core.restaurant.posilki;
 
 import o_objectOP.restaurant.Customizable;
 import o_objectOP.restaurant.skladniki.Mieso;

@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator.b_pojo;
+package e_extras._patterns.pojo;
 
 public class Personid {
     private final String name;

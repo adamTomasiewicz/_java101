@@ -7,11 +7,8 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../../_git/_bestDrive/pom.xml" />
         <option value="$PROJECT_DIR$/../_myAuthorisation/pom.xml" />
-        <option value="$PROJECT_DIR$/../../_git/_JediOrganizer_SWING/pom.xml" />
-        <option value="$PROJECT_DIR$/../../_git/_userAuthorisation_SWING-JDBC/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

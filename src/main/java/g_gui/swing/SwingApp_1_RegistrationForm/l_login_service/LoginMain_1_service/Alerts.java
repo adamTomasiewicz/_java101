@@ -1,4 +1,4 @@
-package l_login_service.LoginMain_1_service;
+package g_gui.swing.SwingApp_1_RegistrationForm.l_login_service.LoginMain_1_service;
 
 public enum Alerts {
     //login alerts

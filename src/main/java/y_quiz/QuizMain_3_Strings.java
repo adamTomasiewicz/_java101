@@ -1,4 +1,4 @@
-package y_quizes;
+package y_quiz;
 
 public class QuizMain_3_Strings {
     public static void main(String[] args) {

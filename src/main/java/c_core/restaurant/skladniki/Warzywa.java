@@ -1,4 +1,4 @@
-package o_objectOP.restaurant.skladniki;
+package c_core.restaurant.skladniki;
 
 public class Warzywa {
     private String kolor;

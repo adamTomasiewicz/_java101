@@ -1,4 +1,4 @@
-package b_javaBasics.arrays;
+package b_javaBasics._arrays;
 
 
 public class Day3_arrays_lists_tables {

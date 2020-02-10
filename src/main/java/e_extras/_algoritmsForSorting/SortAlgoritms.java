@@ -1,4 +1,4 @@
-package pl.adamTomasiewicz.c_programator;
+package e_extras._algoritmsForSorting;
 
 import java.util.Random;
 
